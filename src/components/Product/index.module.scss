@@ -1,0 +1,31 @@
+@import "..//..//scss/vars.scss";
+
+.product{
+	width: 100%;
+	max-width: 220px;
+	border: 1px solid #f3f3f3;
+	border-radius: 12px;
+	overflow: hidden;
+	position: relative;
+	img{
+		width: 220px;
+		height: 150px;
+	}
+	&__info{
+		padding: 10px 15px;
+	}
+	&__title{
+		color: $brown;
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 30px;
+	}
+	&__price{
+		position: absolute;
+		bottom: 10px;
+		right: 15px;
+		font-weight: 600;
+		color: $green;
+		text-align: right;
+	}
+}
